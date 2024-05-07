@@ -8,10 +8,11 @@ class mahasiswa
     string nama;
 
     public:
-    friend void seetNama(mahasiswa &a, string b);
+    friend void setNama(mahasiswa &a, string b);
 };
 
 void setNama(mahasiswa &a, string b)
 {
-
-};
+    a.nama = b;
+    cout << a.nama;
+}
