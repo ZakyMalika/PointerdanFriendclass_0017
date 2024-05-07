@@ -8,5 +8,5 @@ class mahasiswa
     string nama;
 
     public:
-    
-}
+    friend void seetNama(mahasiswa &a, string;)
+};
