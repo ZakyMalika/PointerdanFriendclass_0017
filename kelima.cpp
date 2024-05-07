@@ -11,5 +11,6 @@ class manusia
 
 class pelajar
 {
-    
+    private:
+    int nilai;
 };
