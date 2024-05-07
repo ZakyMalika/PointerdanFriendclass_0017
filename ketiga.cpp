@@ -22,3 +22,8 @@ class siswa
     void setId(int pId);
     void displayALL(orang &a);
 };
+
+void siswa::displayALL(orang &a)
+{
+    
+}
