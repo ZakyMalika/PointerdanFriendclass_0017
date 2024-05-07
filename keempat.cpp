@@ -8,5 +8,10 @@ class mahasiswa
     string nama;
 
     public:
-    friend void seetNama(mahasiswa &a, string;)
+    friend void seetNama(mahasiswa &a, string b);
+};
+
+void setNama(mahasiswa &a, string b)
+{
+
 };
