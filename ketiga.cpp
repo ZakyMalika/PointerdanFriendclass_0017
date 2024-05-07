@@ -16,4 +16,5 @@ class orang
 class siswa
 {
     private:
+    int id;
 }
