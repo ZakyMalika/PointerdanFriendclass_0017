@@ -2,10 +2,16 @@
 #include <string>
 using namespace std;
 
+
 class mahasiswa{
     public:
-    int nim:
+    int nim;
     void showNim(){
         cout << "No Induk = " << nim << endl;
     }
 };
+
+int main(){
+    mahasiswa mhs{1};
+    mhs.
+}
