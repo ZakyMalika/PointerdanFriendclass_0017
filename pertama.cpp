@@ -12,6 +12,6 @@ class mahasiswa{
 };
 
 int main(){
-    mahasiswa mhs{1};
-    mhs.showNim();
+    mahasiswa mhs{1};   //objek mhs
+    mhs.showNim();         // member acces operator
 }
